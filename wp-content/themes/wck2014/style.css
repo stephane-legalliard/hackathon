@@ -164,7 +164,8 @@ input[type="reset"]:active {
   text-decoration: none;
 }
 .entry-content h1, .entry-content h2 {
-  color: #34495E;
+  color: #34495E
+
   border-bottom: 2px solid #CCE2E5;
 }
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4 {
@@ -354,19 +355,19 @@ input[type="reset"]:active {
 
 .home .site-header .home-link h1{
 
-color:black;
-font-size : 4em;
-text-shadow: 5px 5px 2px white;
-padding-top: 300px;
+color:#000;
+font-size : 5em;
+/*text-shadow: 1px 1px 2px #338286;*/
+padding-top: 50px;
 
 text-decoration: none;
 }
 
 .home .site-header .home-link h2{
-font-size : 4em;
+font-size : 3em;
 font-family: Dancing Script;
-color : black;
-text-shadow: 2px 20px 4px white;
+color : #555;
+text-shadow: 1px 1px 1px #741506; /*42H de Code face : #338286*/
 
 }
 
@@ -375,14 +376,14 @@ text-shadow: 2px 20px 4px white;
   
   height: 550px;
   
-  background: url(images/bandeau2.jpeg) no-repeat center top, linear-gradient(  to top right,  white 62%, #338286 15% ) ;
+  background:url(images/bandeau2.jpeg) no-repeat center bottom, radial-gradient( white 68%, #338286 ) center top;
   -moz-background-size: auto 100%;
   -o-background-size: auto 100%;
   -webkit-background-size: auto 100%;
   background-size: auto 100%;
 
 background-size: 100%;
-width:85%;
+width:90%;
   text-align: center; /*TITRE*/
 text-decoration: none;
 
@@ -488,14 +489,18 @@ text-decoration: none;
 }
 
 .navbar {
-
+  border-top: 2px solid;
+   
+text-align: center;
   background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
 background-image: url(images/bg-main.jpg);
   /*background: #72B6CE;*/
-  height : 150px;
+  height : 100px;
   max-width: none;
+margin-bottom : 150px;
+
 }
 @media (max-width: 643px) {
   .navbar .nav-menu {
@@ -555,25 +560,26 @@ margin-top : 15px;
   font-style: normal;
 }
 .navbar .nav-menu li.current-menu-item a, .navbar .nav-menu li.current-menu-parent a {
-  font-style: normal;
-  color: #34495E;
+  font-size : 25px;
+  font-style: bold;
+  color: black;
   text-shadow: rgba(255, 255, 255, 0.4) 2px 2px 1px;/****************accueil menu**********/
 }
 .navbar .nav-menu li.current-menu-item a:hover, .navbar .nav-menu li.current-menu-parent a:hover {
-  color: #34495E;
+  color: white;
 }
 
 .nav-menu li:hover > a, .nav-menu li:focus > a {
-  background: red;
+  background: #8DB9BB; /*menu apres focus/hover*/
 }
 .nav-menu li a:hover, .nav-menu li a:focus {
-  background: red;
+  background: linear-gradient (to right, white, red);
 }
 .nav-menu ul ul a:hover, .nav-menu ul ul a:focus {
-  background: red;
+  background: white;
 }
 .nav-menu .children {
-  background: red;
+  background: grey;
 }
 
 .archive-header, .page-header {
