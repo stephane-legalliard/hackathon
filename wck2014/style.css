@@ -139,17 +139,22 @@ input[type="reset"]:active {
   color: #34495E;
 }
 
+
+/***********************/
+/*******ARTICLES********/
+/**********************/
+
 .entry-title {
   color: #21759B;
-  border-left: 4px solid #21759B;
+  border-left: 12px ridge #00Eb8F;
   padding-left: 15px;
-  font-size: 25px;
+  font-size: 35px;
 }
 .entry-title a {
   color: #21759B;
 }
 .entry-title a:hover {
-  color: #F29B12;
+  color: #0EEB8F;/*couleur type titre article */
 }
 
 .entry-content a {
@@ -460,7 +465,11 @@ input[type="reset"]:active {
 }
 
 .navbar {
-  background: #72B6CE;
+  background-attachment: fixed;
+
+background-image: url(images/bandeau.jpeg);
+  /*background: #72B6CE;*/
+  height : 250px;
   max-width: none;
 }
 @media (max-width: 643px) {
@@ -470,7 +479,8 @@ input[type="reset"]:active {
 }
 .navbar .nav-menu li a {
   color: #FFF;
-  text-shadow: rgba(73, 52, 94, 0.4) 0 1px 0;
+
+  text-shadow: rgba(73, 52, 194, 1) 2px 2px 1px;
   -moz-transition-property: color;
   -o-transition-property: color;
   -webkit-transition-property: color;
