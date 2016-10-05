@@ -272,7 +272,7 @@ input[type="reset"]:active {
 /* COMMENTAIRES */
 /*----------------------------------*/
 .comment-respond, .no-comments {
-  background: #338286;
+  background: lightgrey;
 }
 
 .comment-author .fn, .comment-author .url {
