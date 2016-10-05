@@ -75,6 +75,17 @@ input[type="reset"]:active {
   border-top-color: #34495E;
 }
 
+/*********/
+/*********/
+.CF7{
+  text-align :center;
+}
+
+
+
+
+
+
 /*----------------------------------*/
 /* ENTRY */
 /*----------------------------------*/
@@ -147,6 +158,8 @@ input[type="reset"]:active {
 .entry-title {
   color: #21759B;
   border-left: 12px ridge #00Eb8F;
+  border-top:  12px ridge #00Eb8F;
+  width : 100%;
   padding-left: 15px;
   font-size: 35px;
 }
@@ -272,7 +285,10 @@ input[type="reset"]:active {
 /* COMMENTAIRES */
 /*----------------------------------*/
 .comment-respond, .no-comments {
-  background: lightgrey;
+  background: linear-gradient(to right, white, lightgrey, grey, lightgrey, white);
+
+  /*background: salmon;*/
+  opacity :0.0;
 }
 
 .comment-author .fn, .comment-author .url {
@@ -330,20 +346,20 @@ input[type="reset"]:active {
 
 
 .site-header .home-link {
-  max-width: 75%;
+  max-width: 100%;
 
   color: black;/*couleur Face #338286*/
-  height: 450px;
-  background: url(images/bandeau2.jpeg) no-repeat center top;
+  height: 550px;
+  background: url(images/bandeau2.jpeg) no-repeat center bottom;
   
-  -moz-background-size: auto 40%;
-  -o-background-size: auto 40%;
-  -webkit-background-size: auto 40%;
-  background-size: auto 40%;
+  -moz-background-size: auto 60%;
+  -o-background-size: auto 60%;
+  -webkit-background-size: auto 60%;
+  background-size: auto 60%;
 
   text-shadow: 2px 2px 1px grey;
 text-align: center;
-padding-top: 150px;
+padding-top: 10px;
 }
 
 
@@ -360,9 +376,9 @@ padding-top: 150px;
 
 .home .site-header .home-link h1{
 
-color:#000;
+color:#FFF;
 font-size : 5em;
-/*text-shadow: 1px 1px 2px #338286;*/
+text-shadow: 10px 10px 20px black;
 padding-top: 50px;
 
 text-decoration: none;
@@ -424,7 +440,8 @@ text-decoration: none;
 }
 
 .site-header .search-field {
-  border-color: #21759B !important;
+  color : white;
+  border-color: #FFF !important;
 }
 
 .site-title {
@@ -500,8 +517,8 @@ text-align: center;
   background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
-background-image: url(images/bg-main.jpg);
-  /*background: #72B6CE;*/
+/*background-image: url(images/bg-main.jpg);*/
+  background: radial-gradient( white, grey);
   height : 100px;
   max-width: none;
 margin-bottom : 150px;
@@ -533,7 +550,7 @@ font-size : 1.5em;
   transition-timing-function: ease-in;
 
 box-shadow: 1px 1px 2px red;
-background: linear-gradient(  90deg,#338286, white, grey, white 30%, grey, #338286 ); /*:#781304*/
+background: linear-gradient( #DDD 5%, white 90%,  #338286  ); /*:#781304*/
 /*background-image: url(images/bandeau1.jpeg);
 background-attachment: fixed;
 */
@@ -584,7 +601,7 @@ margin-top : 15px;
   background: white;
 }
 .nav-menu .children {
-  background: grey;
+  background: white;
 }
 
 .archive-header, .page-header {
@@ -597,7 +614,7 @@ margin-top : 15px;
 /*----------------------------------*/
 .site-footer {
   background-image: url(images/bg-main.jpg);
-  border-top: 120px  solid;
+  border-top: 220px  solid;
   border-image: url(images/bg-main.jpg);
   background-attachment: fixed;
   background-size: cover;
