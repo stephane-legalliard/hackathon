@@ -21,7 +21,7 @@ Design by Yuki Motoyama ( https://profiles.wordpress.org/motoyamayuki/ )
   background: none;
 }
 .paging-navigation a .meta-nav {
-  background: fuchsia; /*#21759B;*/
+  background: cyan; /*#21759B;*/
 }
 .paging-navigation a:hover .meta-nav {
   background: #CCE2E5;
@@ -40,11 +40,11 @@ Design by Yuki Motoyama ( https://profiles.wordpress.org/motoyamayuki/ )
 /* FORM */
 /*----------------------------------*/
 button, input, textarea {
-  border-color: fuchsia;
+  border-color: grey;
 }
 
 input:focus, textarea:focus {
-  border-color: white;
+  border-color: lime;
 }
 
 button,
@@ -91,12 +91,12 @@ input[type="reset"]:active {
   color: #34495E;
 }
 
-.format-aside {
-  background: #CCE2E5;
+.format-aside { /*arrière plan page accueil bas*/
+  background: #338286;/*#CCE2E5*/
 }
 
-.format-status {
-  background: #21759B;
+.format-status {/*?*/
+  background: red;
 }
 .format-status .entry-content {
   color: #FFF;
@@ -128,7 +128,7 @@ input[type="reset"]:active {
 }
 
 .attachment .hentry {
-  background: none;
+  background: lime;
 }
 
 .attachment .entry-meta a, .attachment .entry-meta {
@@ -166,7 +166,7 @@ input[type="reset"]:active {
 .entry-content h1, .entry-content h2 {
   color: #34495E
 
-  border-bottom: 2px solid #CCE2E5;
+  border-bottom: 2px solid lime;
 }
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4 {
   padding-bottom: 5px;
@@ -179,7 +179,7 @@ input[type="reset"]:active {
 }
 .entry-content h3 {
   font-size: 20px;
-  border-bottom: 2px solid #CCE2E5;
+  border-bottom: 2px solid fuchsia;
 }
 .entry-content h4, .entry-content h5 {
   font-size: 18px;
@@ -269,10 +269,10 @@ input[type="reset"]:active {
 }
 
 /*----------------------------------*/
-/* COMMENT */
+/* COMMENTAIRES */
 /*----------------------------------*/
 .comment-respond, .no-comments {
-  background: #CCE2E5;
+  background: #338286;
 }
 
 .comment-author .fn, .comment-author .url {
@@ -318,10 +318,10 @@ input[type="reset"]:active {
 /* WIDGET */
 /*----------------------------------*/
 .error404 .page-title:before {
-  color: #CCE2E5;
+  color: #338286;
 }
 .error404 .page-wrapper {
-  background: #CCE2E5;
+  background: #338286;
 }
 
 /*----------------------------------*/
@@ -330,15 +330,20 @@ input[type="reset"]:active {
 
 
 .site-header .home-link {
-  max-width: none;
-  color: white;/*couleur Face #338286*/
-  height: 50px;
-  background: url(images/bg-main.jpg) repeat-x right top;
-  -moz-background-size: auto 100%;
-  -o-background-size: auto 100%;
-  -webkit-background-size: auto 100%;
-  background-size: auto 100%;
-  text-shadow: 0 1px 2px pink;
+  max-width: 75%;
+
+  color: black;/*couleur Face #338286*/
+  height: 450px;
+  background: url(images/bandeau2.jpeg) no-repeat center top;
+  
+  -moz-background-size: auto 40%;
+  -o-background-size: auto 40%;
+  -webkit-background-size: auto 40%;
+  background-size: auto 40%;
+
+  text-shadow: 2px 2px 1px grey;
+text-align: center;
+padding-top: 150px;
 }
 
 
@@ -592,8 +597,10 @@ margin-top : 15px;
 /*----------------------------------*/
 .site-footer {
   background-image: url(images/bg-main.jpg);
-  border-top: 20px  solid red;
+  border-top: 120px  solid;
   border-image: url(images/bg-main.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 .site-footer .widget a {
   color: #21759B;
@@ -635,9 +642,9 @@ a:hover, a:active {
 }
 
 pre {
-  background: #CCE2E5;
+  background: cyan; /*?*/
 }
 
 ins {
-  background: rgba(242, 155, 18, 0.5);
+  background: rgba(242, 155, 18, 1);
 }
